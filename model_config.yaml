@@ -1,0 +1,13 @@
+hyperparameters:
+  batch_size: 4
+  device: gpu
+  epochs: 100
+loss:
+  name: nn.MSELoss
+model:
+  name: FirstNet
+optimizer:
+  kwargs:
+    lr: 0.001
+    momentum: 0.9
+  name: optim.SGD
